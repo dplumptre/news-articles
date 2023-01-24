@@ -18,7 +18,6 @@
 
 2.  You might get this error 'Vite manifest not found at:' 
    1. Run npm install
-
    2. npm run dev --> this will create the vite manifest
 
    3. php artisan serve
