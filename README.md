@@ -28,10 +28,10 @@
 ## End points
 
    - News  ( validates user needs to add authorization Bearer token to work)
-    * http://127.0.0.1:8000/api/news
+     * http://127.0.0.1:8000/api/news
 
    - Register
-    * http://127.0.0.1:8000/api/register
+     * http://127.0.0.1:8000/api/register
 
    - Login
      * http://127.0.0.1:8000/api/login
