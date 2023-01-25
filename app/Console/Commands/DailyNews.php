@@ -5,6 +5,7 @@ namespace App\Console\Commands;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Http;
 use App\Models\Article;
+use Illuminate\Support\Facades\Log;
 
 class DailyNews extends Command
 {
@@ -40,7 +41,7 @@ class DailyNews extends Command
                $response->throw();
            }
 
-
+           Log::info("stored news");
            $articles = $response->json()['articles'];
            foreach ($articles as $article) {
            // dd($article['source']['name']);
