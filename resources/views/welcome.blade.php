@@ -94,7 +94,7 @@
                     @endforeach
 
                     <div class="d-flex">
-                        {!! $data->links() !!}
+                        {{ $data->appends(request()->except('page'))->links() }}
                     </div>
 
 
