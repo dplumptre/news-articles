@@ -41,7 +41,7 @@
 
 ## Features
 1. HTTP client used to pull news and insert into db without duplicates
-2. API News created and displayed on landing page searchable by keyword & date using datatables
+2. API News created and displayed on landing page searchable by keyword & date using a blog format && datatables. Datatables version is in the feature/datatable/1 branch.
 3. Registration / Login for users Using auth:sanctum
-4. throttle (throttle:visits) used to limit access to IP address for more than 20 hits per minutes.
+4. throttle (throttle:visits) used to limit access to IP address for more than 20 hits per minutes. You get an error "message": "Too Many Attempts.
 5. Task Schedule command to pull news every 6 hours
