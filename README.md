@@ -28,13 +28,17 @@
 ## End points
 
    - News  ( validates user needs to add authorization Bearer token to work)
-     * http://127.0.0.1:8000/api/news
+     * https://capitalsage.overallheuristic.com/api/news
+     * To view the above news you need the bearer token and you can get it
+     by using the credentials username: user@example.com && Password: password
+     you can also create your own with the register api below.
 
    - Register
-     * http://127.0.0.1:8000/api/register
+     * https://capitalsage.overallheuristic.com/api/register
 
    - Login
-     * http://127.0.0.1:8000/api/login
+     * https://capitalsage.overallheuristic.com/api/login
+
 
 
 
