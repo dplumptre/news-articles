@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 // this is to check for the IP visiting over 20 times
 // Providers / routeServiceProviders
 Route::middleware(['throttle:visits'])->get('/', [App\Http\Controllers\WelcomeController::class, 'index'])->name('welcome');
+Route::get('/search', [App\Http\Controllers\WelcomeController::class, 'search'])->name('articles.search');
 
 Auth::routes();
 
